@@ -1,0 +1,28 @@
+name: Jekyll site CI
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build the site in the jekyll/builder container
+      run: |
+        docker run \
+        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+        jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+
+    - name: 📂 Sync Files
+      uses: SamKirkland/web-deploy@v1
+      with:
+        target-server: ${{ secrets.FTP_SERVER_IP }}
+        remote-user: ${{ secrets.FTP_SERVER_USERNAME }}
+        private-ssh-key: ${{ secrets.FTP_SERVER_PASSWD }}
+        destination-path: /www/wwwroot/shade.gloomyghost.com
+        source-path: ${{ github.workspace }}/_site/
+        rsync-options: --archive --compress --human-readable --progress --delete-after --exclude=.git* --exclude=.git/ --exclude=.gitignore --no-times

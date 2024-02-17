@@ -23,10 +23,6 @@ pic:
     file: Softening/Softening_day_light_bloom_hyper_dof_indoor.jpg
     link: https://github.com/YuzukiTsuru/YuzukiShade/tree/main/Softening
 
-  - title: "Softening: day light bloom dof indoor"
-    file: Softening/Softening_day_light_bloom_dof_indoor.jpg
-    link: https://github.com/YuzukiTsuru/YuzukiShade/tree/main/Softening
-
   - title: "Protrude: off"
     file: Protrude/Protrude_off.jpg
     link: https://github.com/YuzukiTsuru/YuzukiShade/tree/main/Protrude

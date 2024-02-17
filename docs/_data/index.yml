@@ -15,6 +15,10 @@ pic:
     file: Softening/Softening_indoor_off.jpg
     link: https://github.com/YuzukiTsuru/YuzukiShade/tree/main/Softening
 
+  - title: "Softening: day light bloom dof indoor"
+    file: Softening_day_light_bloom_dof_indoor.jpg
+    link: https://github.com/YuzukiTsuru/YuzukiShade/tree/main/Softening
+
   - title: "Softening: day light bloom hyper dof indoor"
     file: Softening/Softening_day_light_bloom_hyper_dof_indoor.jpg
     link: https://github.com/YuzukiTsuru/YuzukiShade/tree/main/Softening
@@ -34,4 +38,3 @@ pic:
   - title: "Protrude: normal vivid hyper dof"
     file: Protrude/normal_vivid_hyper_dof.jpg
     link: https://github.com/YuzukiTsuru/YuzukiShade/tree/main/Protrude
-    

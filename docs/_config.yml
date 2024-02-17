@@ -1,0 +1,23 @@
+title: YuzukiHD
+subtitle: YuzukiTsuru Hardware Open Source
+auther: YuzukiTsuru
+baseurl: "" 
+url: ""
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Build settings
+markdown: kramdown
+repository: YuzukiHD/YuzukiHD.github.io
+repository_index: YuzukiHD
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+

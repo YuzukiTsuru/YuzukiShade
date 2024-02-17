@@ -1,0 +1,24 @@
+pic:
+  - title: "Softening: off"
+    file: Softening_outdoor_off.jpg
+    link: https://github.com/YuzukiTsuru/YuzukiShade/tree/main/Softening
+
+  - title: "Softening: day light bloom"
+    file: Softening_day_light_bloom.jpg
+    link: https://github.com/YuzukiTsuru/YuzukiShade/tree/main/Softening
+
+  - title: "Softening: night light bloom hyper dof"
+    file: Softening_day_light_bloom.jpg
+    link: https://github.com/YuzukiTsuru/YuzukiShade/tree/main/Softening
+
+  - title: "Softening: indoor off"
+    file: Softening_indoor_off.jpg
+    link: https://github.com/YuzukiTsuru/YuzukiShade/tree/main/Softening
+
+  - title: "Softening: day light bloom hyper dof indoor"
+    file: Softening_day_light_bloom_hyper_dof_indoor.jpg
+    link: https://github.com/YuzukiTsuru/YuzukiShade/tree/main/Softening
+
+  - title: "Softening: day light bloom dof indoor"
+    file: Softening_day_light_bloom_dof_indoor.jpg
+    link: https://github.com/YuzukiTsuru/YuzukiShade/tree/main/Softening

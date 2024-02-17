@@ -11,3 +11,11 @@
 ## day_light_bloom
 
 ![_day_light_bloom](https://github.com/YuzukiTsuru/YuzukiShade/assets/12003087/8a5a9c3a-e0a0-4826-a4f0-cef7303fb808)
+
+## indoor off
+
+![off](https://github.com/YuzukiTsuru/YuzukiShade/assets/12003087/4c86c9f5-2d49-4fde-a21d-a124b54bb055)
+
+## day_light_bloom_dof_indoor
+
+![day_light_bloom_dof_indoor](https://github.com/YuzukiTsuru/YuzukiShade/assets/12003087/6ba33ad4-43ae-47bd-87d4-86a7a45c7155)

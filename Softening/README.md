@@ -19,3 +19,7 @@
 ## day_light_bloom_dof_indoor
 
 ![day_light_bloom_dof_indoor](https://github.com/YuzukiTsuru/YuzukiShade/assets/12003087/6ba33ad4-43ae-47bd-87d4-86a7a45c7155)
+
+## day_light_bloom_hyper_dof_indoor
+
+![day_light_bloom_hyper_dof_indoor](https://github.com/YuzukiTsuru/YuzukiShade/assets/12003087/b5a09995-d607-4dab-acbc-2a5fd74da7e5)

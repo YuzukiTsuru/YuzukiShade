@@ -1,5 +1,5 @@
-title: YuzukiHD
-subtitle: YuzukiTsuru Hardware Open Source
+title: YuzukiShade
+subtitle: YuzukiShade is a GShade Preset
 auther: YuzukiTsuru
 baseurl: "" 
 url: ""
@@ -10,8 +10,8 @@ sass:
 
 # Build settings
 markdown: kramdown
-repository: YuzukiHD/YuzukiHD.github.io
-repository_index: YuzukiHD
+repository: YuzukiTsuru/YuzukiShade
+repository_index: YuzukiTsuru
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

@@ -7,12 +7,7 @@ layout: default
 	{% for pic in site.data.index.pic %}
 	<article class="thumb">
 		<a href="images/{{ pic.file }}" class="image"><img src="images/{{ pic.file }}" alt="{{ pic.file }}" /></a>
-		<h2>{{ pic.title }}</h2>
-		<p class="caption-desc">
-			<br />
-			<a href="{{ pic.link }}" class="icon brands fa-github">{{ pic.link }}</a>
-			<br />
-		</p>
+		<h2><a href="{{ pic.link }}">{{ pic.title }}</a></h2>
 	</article>
 	{% endfor %}
 </div>

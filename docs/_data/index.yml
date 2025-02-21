@@ -16,7 +16,7 @@ pic:
     link: https://github.com/YuzukiTsuru/YuzukiShade/tree/main/Softening
 
   - title: "Softening: day light bloom dof indoor"
-    file: Softening_day_light_bloom_dof_indoor.jpg
+    file: Softening/Softening_day_light_bloom_dof_indoor.jpg
     link: https://github.com/YuzukiTsuru/YuzukiShade/tree/main/Softening
 
   - title: "Softening: day light bloom hyper dof indoor"

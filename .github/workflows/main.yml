@@ -26,3 +26,4 @@ jobs:
         destination-path: /www/wwwroot/shade.gloomyghost.com
         source-path: ${{ github.workspace }}/docs/_site/
         rsync-options: --archive --compress --human-readable --progress --delete-after --exclude=.git* --exclude=.git/ --exclude=.well-known/ --exclude=.user.ini --exclude=.gitignore --no-times
+        continue-on-error: true
